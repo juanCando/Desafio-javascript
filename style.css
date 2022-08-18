@@ -1,0 +1,27 @@
+body{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #E7F6F2;
+}
+
+.container{
+    border-radius: 20px;
+    margin:auto;
+    
+}
+
+th, td{
+    text-align: center;
+}
+
+
+.buttonAlumno {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 20px;
+}
+
+.buttonAlumno:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
